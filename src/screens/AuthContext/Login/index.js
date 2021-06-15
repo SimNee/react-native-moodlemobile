@@ -110,8 +110,8 @@ const Login = ({navigation}) => {
         <Dialog
           visible
           doneText="OK"
-          title="Ocorreu um erro"
-          content={hasError.error}
+          title="An error has occurred"
+          content={hasError.message}
           onDismiss={() => {
             setHasError(null);
           }}
